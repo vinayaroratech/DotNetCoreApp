@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Expenses.Data.Model.EFClasses
 {
-    public class Expense
+    public class Expense : Entity
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }

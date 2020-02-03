@@ -2,7 +2,7 @@
 
 namespace Expenses.Data.Model.EFClasses
 {
-    public class User
+    public class User : Entity
     {
         public User()
         {

@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Expenses.Api.Models\Expenses.Api.Models.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Expenses.Data.Model\Expenses.Data.Model.csproj" />
   </ItemGroup>
 
 </Project>

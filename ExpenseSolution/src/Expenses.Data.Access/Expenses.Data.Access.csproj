@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Expenses.Api.Models\Expenses.Api.Models.csproj" />
+  </ItemGroup>
+
 </Project>

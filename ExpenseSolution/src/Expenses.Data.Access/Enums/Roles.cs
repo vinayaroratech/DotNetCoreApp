@@ -2,7 +2,7 @@
 
 namespace Expenses.Data.Access.Constants
 {
-    enum Roles
+    public enum Roles
     {
         [Description("Administrator")]
         Administrator = 1,

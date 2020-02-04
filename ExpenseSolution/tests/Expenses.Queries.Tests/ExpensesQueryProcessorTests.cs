@@ -7,7 +7,7 @@ using Expenses.Api.Models.Expenses;
 using Expenses.Data.Access.DAL;
 using Expenses.Data.Model;
 using Expenses.Data.Model.EFClasses;
-using Expenses.Queries.Queries;
+using Expenses.Queries;
 using Expenses.Security;
 using FluentAssertions;
 using Moq;
@@ -17,12 +17,12 @@ namespace Expenses.Queries.Tests
 {
     public class ExpensesQueryProcessorTests
     {
-        private Mock<IUnitOfWork> _uow;
-        private List<Expense> _expenseList;
-        private IExpensesQueryProcessor _query;
-        private Random _random;
-        private User _currentUser;
-        private Mock<ISecurityContext> _securityContext;
+        private readonly Mock<IUnitOfWork> _uow;
+        private readonly List<Expense> _expenseList;
+        private readonly IExpensesQueryProcessor _query;
+        private readonly Random _random;
+        private readonly User _currentUser;
+        private readonly Mock<ISecurityContext> _securityContext;
 
         public ExpensesQueryProcessorTests()
         {

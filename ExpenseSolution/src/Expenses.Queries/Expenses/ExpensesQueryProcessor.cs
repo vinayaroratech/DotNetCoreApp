@@ -6,7 +6,7 @@ using Expenses.Security;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Expenses.Queries.Queries
+namespace Expenses.Queries
 {
     public class ExpensesQueryProcessor : IExpensesQueryProcessor
     {

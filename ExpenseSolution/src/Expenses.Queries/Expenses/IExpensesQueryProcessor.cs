@@ -3,7 +3,7 @@ using Expenses.Data.Model.EFClasses;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Expenses.Queries.Queries
+namespace Expenses.Queries
 {
     public interface IExpensesQueryProcessor
     {

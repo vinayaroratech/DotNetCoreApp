@@ -9,7 +9,7 @@
     <PackageReference Include="AutoQueryable" Version="1.7.0" />
     <PackageReference Include="AutoQueryable.AspNetCore.Filter" Version="1.7.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
     <PackageReference Include="microsoft.aspnetcore.mvc.formatters.json" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.1" />
